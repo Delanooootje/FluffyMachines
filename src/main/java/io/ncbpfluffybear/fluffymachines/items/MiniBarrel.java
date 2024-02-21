@@ -18,7 +18,7 @@ import org.bukkit.event.block.BlockPlaceEvent;
 import org.bukkit.inventory.ItemStack;
 
 public class MiniBarrel extends Barrel {
-    private static final int MAX_STORAGE = 172800;
+    private static final int MAX_STORAGE = 6400;
 
     public MiniBarrel(ItemGroup category, SlimefunItemStack item, RecipeType recipeType, ItemStack[] recipe) {
         super(category, item, recipeType, recipe, MAX_STORAGE);

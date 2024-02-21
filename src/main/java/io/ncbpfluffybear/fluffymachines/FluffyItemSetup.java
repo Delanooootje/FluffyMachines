@@ -116,9 +116,9 @@ public final class FluffyItemSetup {
     public static void setupBarrels(@Nonnull FluffyMachines plugin) {
 
         new MiniBarrel(fluffybarrels, FluffyItems.MINI_FLUFFY_BARREL, RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[]{
-                new ItemStack(Material.OAK_SLAB), new ItemStack(Material.BARREL), new ItemStack(Material.OAK_SLAB),
-                new ItemStack(Material.OAK_SLAB), new ItemStack(Material.BARREL), new ItemStack(Material.OAK_SLAB),
-                SlimefunItems.STEEL_PLATE, SlimefunItems.STEEL_PLATE, SlimefunItems.STEEL_PLATE
+                new ItemStack(Material.OAK_WOOD), new ItemStack(Material.BARREL), new ItemStack(Material.OAK_WOOD),
+                new ItemStack(Material.OAK_WOOD), SlimefunItems.STEEL_PLATE, new ItemStack(Material.OAK_WOOD),
+                new ItemStack(Material.OAK_WOOD), new ItemStack(Material.BARREL), new ItemStack(Material.OAK_WOOD)
         }).register(plugin);
 
         ItemStack previousBarrel = new ItemStack(Material.BARREL);

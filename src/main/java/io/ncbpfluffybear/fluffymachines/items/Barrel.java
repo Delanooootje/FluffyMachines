@@ -654,12 +654,12 @@ public class Barrel extends NonHopperableBlock implements DoubleHologramOwner {
 
     public enum BarrelType {
 
-        SMALL(17280000, "&eSmall Fluffy Barrel", Material.BEEHIVE, SlimefunItems.REINFORCED_PLATE, new ItemStack(Material.OAK_LOG)),
-        MEDIUM(34560000, "&6Medium Fluffy Barrel", Material.BARREL, SlimefunItems.REINFORCED_PLATE, new ItemStack(Material.SMOOTH_STONE)),
-        BIG(69120000, "&bBig Fluffy Barrel", Material.SMOKER, SlimefunItems.REINFORCED_PLATE, new ItemStack(Material.BRICKS)),
-        LARGE(138240000, "&aLarge Fluffy Barrel", Material.LODESTONE, SlimefunItems.REINFORCED_PLATE, new ItemStack(Material.IRON_BLOCK)),
-        MASSIVE(276480000, "&5Massive Fluffy Barrel", Material.CRYING_OBSIDIAN, SlimefunItems.REINFORCED_PLATE, new ItemStack(Material.OBSIDIAN)),
-        BOTTOMLESS(1728000000, "&cBottomless Fluffy Barrel", Material.RESPAWN_ANCHOR, SlimefunItems.BLISTERING_INGOT_3, SlimefunItems.REINFORCED_PLATE);
+        SMALL(25600, "&eSmall Fluffy Barrel", Material.JUNGLE_WOOD, SlimefunItems.REINFORCED_PLATE, new ItemStack(Material.JUNGLE_WOOD)),
+        MEDIUM(102400, "&6Medium Fluffy Barrel", Material.ACACIA_WOOD, SlimefunItems.REINFORCED_PLATE, new ItemStack(Material.ACACIA_WOOD)),
+        BIG(409600, "&bBig Fluffy Barrel", Material.SPRUCE_WOOD, SlimefunItems.REINFORCED_PLATE, new ItemStack(Material.SPRUCE_WOOD)),
+        LARGE(1638400, "&aLarge Fluffy Barrel", Material.DARK_OAK_WOOD, SlimefunItems.REINFORCED_PLATE, new ItemStack(Material.DARK_OAK_WOOD)),
+        MASSIVE(6553600, "&5Massive Fluffy Barrel", Material.CRIMSON_HYPHAE, SlimefunItems.REINFORCED_PLATE, new ItemStack(Material.CRIMSON_HYPHAE)),
+        BOTTOMLESS(26214400, "&cBottomless Fluffy Barrel", Material.WARPED_HYPHAE, SlimefunItems.BLISTERING_INGOT_3, SlimefunItems.REINFORCED_PLATE);
 
         private final int defaultSize;
         private final String displayName;

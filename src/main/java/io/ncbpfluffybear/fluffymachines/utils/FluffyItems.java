@@ -40,7 +40,7 @@ public class FluffyItems {
 
     // Barrels
     public static final SlimefunItemStack MINI_FLUFFY_BARREL = new SlimefunItemStack("MINI_FLUFFY_BARREL",
-            Material.COMPOSTER,
+            Material.OAK_WOOD,
             "&eMini Fluffy Barrel",
             "",
             "&7Stores a large amount of an item",
